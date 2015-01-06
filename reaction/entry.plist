@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = Reaction;
+		cell = PSLinkCell;
+		detail = "ReactionListController";
+		icon = "ReactionIcon.png";
+		isController = 1;
+		label = Reaction;
+	};
+}

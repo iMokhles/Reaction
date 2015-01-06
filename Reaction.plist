@@ -1,0 +1,10 @@
+{
+	Filter = {
+		Bundles = (
+			"com.apple.mobileslideshow",
+			"com.apple.camera",
+			"com.apple.springboard",
+			"com.apple.CameraKit",
+		);
+	};
+}

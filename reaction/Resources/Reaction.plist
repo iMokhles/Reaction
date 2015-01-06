@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Activation</string>
+			<key>footerText</key>
+			<string>Choose an activator method to activate Reaction AnyWhere</string>
+		</dict>
+		<dict>
+			<key>activatorListener</key>
+			<string>com.imokhles.ReactionAtor</string>
+			<key>bundle</key>
+			<string>LibActivator</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Activation Methods</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Reaction Switch</string>
+			<key>footerText</key>
+			<string>Enable / Disable Reaction</string>
+		</dict>
+		<dict>
+			<key>alternateColors</key>
+			<true/>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.imokhles.Reaction</string>
+			<key>key</key>
+			<string>enable</string>
+			<key>label</key>
+			<string>Enable/Disable</string>
+			<key>PostNotification</key>
+			<string>com.imokhles.Reaction-preferencesChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>isStaticText</key>
+			<true/>
+			<key>label</key>
+			<string>Color Picker</string>
+			<key>footerText</key>
+			<string>Change stroke color </string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>defaults</key>
+			<string>com.imokhles.Reaction</string>
+			<key>key</key>
+			<string>bgColor</string>
+			<key>label</key>
+			<string>Colors</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>validTitles</key>
+			<array>
+				<string>White</string>
+				<string>Blue</string>
+				<string>Green</string>
+				<string>Black</string>
+				<string>Browen</string>
+				<string>Purple</string>
+				<string>Red</string>
+				<string>Orange</string>
+				<string>DarkGray</string>
+				<string>LightGray</string>
+				<string>Gray</string>
+				<string>Cyan</string>
+				<string>Yellow</string>
+				<string>Magenta</string>
+				<string>Clear</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<string>3</string>
+				<string>4</string>
+				<string>5</string>
+				<string>6</string>
+				<string>7</string>
+				<string>8</string>
+				<string>9</string>
+				<string>10</string>
+				<string>11</string>
+				<string>12</string>
+				<string>13</string>
+				<string>14</string>
+			</array>
+			<key>default</key>
+			<integer>0</integer>
+			<key>PostNotification</key>
+			<string>com.imokhles.Reaction-preferencesChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Developer</string>
+			<key>footerText</key>
+			<string>Support me if you would like to do it ;)</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>followOnTwitter:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>Twitter.png</string>
+			<key>label</key>
+			<string>Follow @iMokhles</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>visitWebSite:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>Site.png</string>
+			<key>label</key>
+			<string>Visit iMokhles Site</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>Donate:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>Donate.png</string>
+			<key>label</key>
+			<string>Donate to iMokhles</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>isStaticText</key>
+			<true/>
+			<key>footerText</key>
+			<string>Reaction</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>© 2014 iMokhles, All Rights Reserved.</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Reaction</string>
+</dict>
+</plist>

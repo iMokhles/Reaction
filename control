@@ -1,0 +1,10 @@
+Package: com.imokhles.Reaction
+Name: Reaction
+Version: 1.0
+Description: merge your reaction in your photos
+Section: Tweaks
+Depends: firmware (>= 6.0), mobilesubstrate
+Priority: optional
+Architecture: iphoneos-arm
+Author: iMokhles
+Icon: file:///Library/PreferenceBundles/Reaction.bundle/ReactionCydia.png
